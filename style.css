@@ -1,0 +1,116 @@
+body {
+    background-color:azure;
+    margin: 0px;
+}
+
+.bodyFlex {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.sidebar {
+    text-align: center;
+    width: 500px;
+    background-color: rgb(146, 201, 249);
+    box-shadow: 3px 0px 10px grey;
+}
+
+.sidebarContent {
+    position: sticky;
+    top: 0;
+    padding: 10px 0px;
+}
+
+.sidebarElement {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.navBarList {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(249, 152, 117);
+    overflow: hidden;
+}
+
+.navBarElement {
+    padding: 20px 40px;
+    float:left;
+    font-size: x-large;
+    font-weight:bold;
+    letter-spacing: 1px;
+}
+
+.navBarElement:hover {
+    background-color: rgb(254, 83, 21);
+}
+
+.barLink {
+    color: aliceblue;
+    text-decoration: none;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    padding: 40px 100px;
+    min-height: 100vh;
+}
+
+#selfDescription {
+    padding: 15px 0px;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+}
+
+.listDiv {
+    text-align: left;
+    border-style: solid;
+    border-spacing: 40px, 100px;
+    border-radius: 10px;
+    border-color: black;
+}
+
+th {
+    font-size: 15px;
+    border-style: solid;
+}
+
+.contactList {
+    padding: 0px;
+    list-style: none;
+}
+
+#contactContent {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: auto;
+}
+
+form {
+    width: 20em;
+}
+
+.formInput {
+    margin-bottom: 3px;
+    margin-top: 3px;
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    background-color: rgb(249, 152, 117);
+    text-align: center;
+}

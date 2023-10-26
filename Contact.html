@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kontakta</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="bodyFlex">
+        <nav>
+            <ul class="navBarList">
+                <li class="navBarElement">
+                    <a href="MainPage.html" class="barLink">Startsida</a>
+                </li>
+
+                <li class="navBarElement">
+                    <a href="Education.html" class="barLink">Mina Kurser</a>
+                </li>
+
+                <li class="navBarElement">
+                    <a href="Contact.html" class="barLink">Kontaktuppgifter</a>
+                </li>
+            </ul>
+        </nav>
+
+        <main id="contactContent" class="content">
+            <h1>KONTAKTINFORMATION</h1>
+
+            <ul class="contactList">
+                <p><i>Ture Lindblad:</i></p>
+                <li>
+                    <a href="mailto:ture.gustaf.lindblad@gmail.com">ture.gustaf.lindblad@gmail.com</a>   
+                </li>
+                
+                <li>
+                    <a href="tel:+46727425800">Mobilnummer: 0727425800</a>
+                </li>
+            </ul>
+        
+            <form>
+                <h3>Skicka meddelande</h3>
+                <input class="formInput" type="text" name="contactForm" placeholder="Ange ditt namn" required>
+                <input class="formInput" type="email" placeholder="Ange din email" required>
+                <textarea name="message" id="contactForm" cols="30" rows="10" placeholder="Skriv ett meddelande..." required></textarea>
+                
+                <br>
+
+                <input type="radio" id="isMember" name="memberRadio" required>
+                <label for="isMember">Jag är medlem</label>
+                <br>
+                <input type="radio" id="isNotMember" name="memberRadio" required>
+                <label for="isNotMember">Jag är inte en medlem</label>
+
+                <br>
+
+                <input id="checkbox" type="checkbox" required>
+                <label for="checkbox">Jag godkänner policy</label>
+
+                <br>
+
+                <input class="formInput" type="submit" value="Skicka">
+            </form>
+        </main>
+
+        <footer>
+            <p><i>Ture Lindblad 2023</i></p>
+        </footer>
+    </div>
+</body>
+
+</html>
